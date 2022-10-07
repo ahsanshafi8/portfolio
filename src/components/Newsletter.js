@@ -1,6 +1,5 @@
 import { Col, Row, Alert } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 export const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState("");
 
